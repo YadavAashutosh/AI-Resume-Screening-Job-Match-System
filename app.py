@@ -15,7 +15,7 @@ st.set_page_config(
 # ── Session State ─────────────────────────────────────────────────────────────
 for key, val in {"page": "home", "results": None, "parsed": None}.items():
     if key not in st.session_state:
-        st.session_state[key] = val
+        st.session_state[key] = val 
 
 # ── CSS ───────────────────────────────────────────────────────────────────────
 st.markdown("""
